@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介カード</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+<header class="fixed top-0 left-0 w-full bg-white border-b z-50 flex items-center justify-between px-6 py-5">
+    <h1 class="text-xl font-bold text-pink-300 text-center" style="-webkit-text-stroke: 3px #aedaf2; paint-order: stroke fill;">いつメン紹介</h1>
+    <nav>
+        <ul class="flex space-x-4">
+        <li><a href="#" class="text-gray-600 hover:text-pink-200 hover:underline">ホーム</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-pink-200 hover:underline">メンバー</a></li>
+        </ul>
+    </nav>
+</header>
+  <body class="bg-gray-50 py-8">
+    <main class="max-w-4xl mx-auto px-4">
+      <h1 class="text-2xl font-bold text-gray-900 mb-6 text-center">メンバー</h1>
+
+      <!-- カードを横3枚並びにする。スマホでは縦1列 -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto">
+
+        <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center hover:-translate-y-1 transition-transform">
+          <span class="text-4xl">🌸</span>
+          <h2 class="text-lg font-bold text-gray-900 mt-3">いあ
+          </h2>
+          <p class="text-gray-600 text-sm mt-2 text-center">snowmanを愛してやまない。たまに奇行に走る。</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center hover:-translate-y-1 transition-transform">
+          <span class="text-4xl">🌻</span>
+          <h2 class="text-lg font-bold text-gray-900 mt-3">りお</h2>
+          <p class="text-gray-600 text-sm mt-2 text-center">基本的には静かなお嬢。</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center hover:-translate-y-1 transition-transform">
+          <span class="text-4xl">🌹</span>
+          <h2 class="text-lg font-bold text-gray-900 mt-3">あかり</h2>
+          <p class="text-gray-600 text-sm mt-2 text-center">とにかく元気。現在中国で寮生活。</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center hover:-translate-y-1 transition-transform">
+        <span class="text-4xl">🌼</span>
+          <h2 class="text-lg font-bold text-gray-900 mt-3">こと</h2>
+          <p class="text-gray-600 text-sm mt-2 text-center">ずっとお菓子を食べてる。</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center hover:-translate-y-1 transition-transform">
+          <span class="text-4xl">🪻</span>
+          <h2 class="text-lg font-bold text-gray-900 mt-3">??</h2>
+          <p class="text-gray-600 text-sm mt-2 text-center">募集中...</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
